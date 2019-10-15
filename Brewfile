@@ -49,3 +49,21 @@ brew "node"
 brew "font-ia-writer-mono"
 brew "font-ia-writer-duo"
 brew "font-ia-writer-quattro"
+
+brew "font-open-sans"
+brew "font-poppins"
+brew "font-roboto"
+brew "font-fira-sans"
+brew "font-karla"
+
+brew "font-source-code-pro"
+brew "font-source-sans-pro"
+brew "font-source-serif-pro"
+
+brew "font-playfair-display"
+brew "font-merriweather"
+brew "font-lora"
+brew "font-crimson-text"
+brew "font-abril-fatface"
+
+brew "font-orbitron"
