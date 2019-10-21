@@ -28,6 +28,7 @@ mas "Unclutter", id: 577085396
 mas "Noizio", id: 928871589
 mas "Divvy", id: 413857545
 
+cask "sketch"
 cask "fantastical"
 cask "alfred"
 cask "google-chrome"
@@ -52,3 +53,20 @@ brew "node"
 brew "font-ia-writer-mono"
 brew "font-ia-writer-duo"
 brew "font-ia-writer-quattro"
+brew "font-open-sans"	
+brew "font-poppins"	
+brew "font-roboto"	
+brew "font-fira-sans"	
+brew "font-karla"	
+
+brew "font-source-code-pro"	
+brew "font-source-sans-pro"	
+brew "font-source-serif-pro"	
+
+brew "font-playfair-display"	
+brew "font-merriweather"	
+brew "font-lora"	
+brew "font-crimson-text"	
+brew "font-abril-fatface"	
+
+brew "font-orbitron"
