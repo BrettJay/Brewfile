@@ -42,6 +42,8 @@ cask "handbrake"
 cask "iina"
 cask "keepingyouawake"
 
+cask "adoptopenjdk8"
+brew "json-c"
 brew "clamav"
 brew "openssl"
 brew "pcre2"
