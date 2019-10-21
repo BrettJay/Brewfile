@@ -29,16 +29,18 @@ mas "Noizio", id: 928871589
 mas "Divvy", id: 413857545
 
 cask "sketch"
+cask "sublime-text"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "imageoptim"
+
 cask "fantastical"
 cask "alfred"
-cask "google-chrome"
+cask "textexpander5"
+
 cask "handbrake"
 cask "iina"
-cask "imageoptim"
 cask "keepingyouawake"
-cask "visual-studio-code"
-
-cask "textexpander5"
 
 brew "clamav"
 brew "mysql", restart_service: true
