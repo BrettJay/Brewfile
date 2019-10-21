@@ -25,6 +25,7 @@ mas "GIPHY Capture", id: 668208984
 mas "Pixel Winch", id: 735066709
 mas "Unclutter", id: 577085396
 mas "Noizio", id: 928871589
+mas "Divvy", id: 413857545
 
 cask "sketch"
 cask "fantastical"
