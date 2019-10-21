@@ -43,11 +43,17 @@ cask "iina"
 cask "keepingyouawake"
 
 brew "clamav"
-brew "mysql", restart_service: true
 brew "openssl"
 brew "pcre2"
 brew "rbenv"
 brew "zlib"
+brew "libsodium"
+brew "qt"
+
+brew "mysql", restart_service: true
+brew "elasticsearch", restart_service: true
+brew "rabbitmq", restart_service: true
+brew "redis", restart_service: true
 
 brew "youtube-dl"
 brew "node"
