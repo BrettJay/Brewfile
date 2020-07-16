@@ -41,6 +41,7 @@ cask "fantastical"
 cask "alfred"
 cask "textexpander5"
 
+cask "screenflick"
 cask "flotato"
 cask "handbrake"
 cask "iina"
