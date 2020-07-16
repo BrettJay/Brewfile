@@ -30,14 +30,18 @@ mas "Divvy", id: 413857545
 
 cask "sketch"
 cask "sublime-text"
+cask "sublime-merge"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "imageoptim"
+
+cask "post-haste"
 
 cask "fantastical"
 cask "alfred"
 cask "textexpander5"
 
+cask "flotato"
 cask "handbrake"
 cask "iina"
 cask "keepingyouawake"
