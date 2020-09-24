@@ -26,7 +26,10 @@ mas "GIPHY Capture", id: 668208984
 mas "Pixel Winch", id: 735066709
 mas "Unclutter", id: 577085396
 mas "Noizio", id: 928871589
+
+# Two options for window management; rectangle is open source.
 mas "Divvy", id: 413857545
+cask "rectangle"
 
 cask "sketch"
 cask "sublime-text"
