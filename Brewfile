@@ -17,18 +17,26 @@ mas "Motion", id: 434290957
 
 mas "Affinity Photo", id: 824183456
 mas "Affinity Designer", id: 824171161
+mas "Pixelmator", id: 407963104
+mas "Pixelmator Pro", id: 1289583905
 
 mas "1Password", id: 1333542190
-mas "Things 3", id: 904280696
+mas "Things", id: 904280696
 mas "iA Writer", id: 928871589
+mas "Tot", id: 1491071483
+mas "Table Tool", id: 1122008420
+mas "FocusList", id: 1086877679
 
 mas "GIPHY Capture", id: 668208984
 mas "Pixel Winch", id: 735066709
 mas "Unclutter", id: 577085396
 mas "Noizio", id: 928871589
+mas "Entity Pro", id: 1503988785
+mas "The Unarchiver", id: 425424353
+mas "Soulver", id: 413965349
 
 # Two options for window management; rectangle is open source.
-mas "Divvy", id: 413857545
+# mas "Divvy", id: 413857545
 cask "rectangle"
 
 cask "sketch"
@@ -39,6 +47,9 @@ cask "google-chrome"
 cask "imageoptim"
 
 cask "post-haste"
+cask "cleanshot"
+cask "cleanmymac"
+cask "daisydisk"
 
 cask "fantastical"
 cask "alfred"
@@ -48,7 +59,9 @@ cask "screenflick"
 cask "flotato"
 cask "handbrake"
 cask "iina"
+cask "beamer"
 cask "keepingyouawake"
+cask "boop"
 
 cask "adoptopenjdk8"
 brew "json-c"
