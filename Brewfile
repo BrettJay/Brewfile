@@ -64,6 +64,7 @@ cask "keepingyouawake"
 cask "boop"
 
 cask "adoptopenjdk8"
+brew "fnm"
 brew "json-c"
 brew "clamav"
 brew "openssl"
