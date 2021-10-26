@@ -39,6 +39,7 @@ cask "sublime-text"
 cask "sublime-merge"
 cask "imageoptim"
 cask "brave-browser"
+brew "pure"
 brew "neovim"
 brew "tmux"
 
