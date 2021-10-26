@@ -50,6 +50,7 @@ cask "post-haste"
 cask "cleanshot"
 cask "cleanmymac"
 cask "daisydisk"
+cask "pictogram"
 
 cask "fantastical"
 cask "alfred"
