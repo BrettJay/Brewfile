@@ -57,6 +57,7 @@ cask "alfred"
 cask "textexpander5"
 
 cask "screenflick"
+cask "recut"
 cask "flotato"
 cask "handbrake"
 cask "iina"
