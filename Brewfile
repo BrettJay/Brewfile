@@ -7,89 +7,117 @@ tap "homebrew/cask-versions"
 
 brew "mas"
 
+# macOS office suite alternative
 mas "Xcode", id: 497799835
-
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
+
+# Video editing and motion graphics
 mas "Final Cut Pro", id: 424389933
 mas "Motion", id: 434290957
 
+# Visual design tools
+mas "Pixelmator Pro", id: 1289583905
 mas "Affinity Photo", id: 824183456
 mas "Affinity Designer", id: 824171161
-mas "Pixelmator", id: 407963104
-mas "Pixelmator Pro", id: 1289583905
+cask "affinity-publisher"
+cask "sketch"
+cask "figma"
 
-mas "1Password", id: 1333542190
-mas "Things", id: 904280696
-mas "iA Writer", id: 928871589
-mas "Tot", id: 1491071483
-mas "Table Tool", id: 1122008420
-mas "FocusList", id: 1086877679
-
-mas "GIPHY Capture", id: 668208984
+# Favourite pixel-peeping tool
 mas "Pixel Winch", id: 735066709
-mas "Unclutter", id: 577085396
-mas "Noizio", id: 928871589
-mas "Entity Pro", id: 1503988785
-mas "The Unarchiver", id: 425424353
-mas "Soulver", id: 413965349
 
-# Two options for window management; rectangle is open source.
-# mas "Divvy", id: 413857545
+# Inspect a wide range of typographic symbols
+mas "Entity Pro", id: 1503988785
+
+# Password manager
+mas "1Password", id: 1333542190
+
+# Favourite todo app
+mas "Things", id: 904280696
+
+# Favourite writing app
+mas "iA Writer", id: 928871589
+
+# Open more archive formats
+mas "The Unarchiver", id: 425424353
+
+# Spotlight replacement for 2022
+cask "raycast"
+
+# Calendar replacement for 2022
+cask "cron"
+
+# Project management
+cask "linear"
+
+# Communication
+cask "slack"
+cask "basecamp"
+cask "zoom"
+
+# Open source macOS window snapping utility
 cask "rectangle"
 
-cask "sketch"
+# Reverse scrolling per-device in macOS; allows for “natural” scroll direction on trackpads,
+# and regular scrolling on mouse wheels.
+cask "scroll-reverser"
+
+# Developer tools
+brew "neovim"
 cask "sublime-text"
 cask "sublime-merge"
-cask "visual-studio-code"
 cask "google-chrome"
 cask "imageoptim"
 
-cask "post-haste"
+# Better macOS screenshots
 cask "cleanshot"
-cask "cleanmymac"
-cask "daisydisk"
-cask "pictogram"
 
-cask "fantastical"
-cask "alfred"
+# Webpage screenshot utility
+cask "paparazzi"
+
+# Disk space visualisation
+cask "daisydisk"
+
+# Text shortcuts and macros
 cask "textexpander5"
 
+# High quality screen recording
 cask "screenflick"
+
+# Automatically trim silence in videos
 cask "recut"
+
+# Create individual macos apps from 
 cask "flotato"
+
+# Graphical interface for video transcoding
 cask "handbrake"
+
+# Open source media player with broad compatibility. Like VLC but nice.
 cask "iina"
+
+# AirPlay more formats to Apple TV
 cask "beamer"
-cask "keepingyouawake"
+
+# Developer tools
 cask "boop"
 
-cask "adoptopenjdk8"
+# Node and Ruby version managers
 brew "fnm"
-brew "json-c"
-brew "clamav"
-brew "openssl"
-brew "pcre2"
 brew "rbenv"
-brew "zlib"
-brew "libsodium"
-brew "qt"
-
-brew "mysql", restart_service: true
-brew "elasticsearch", restart_service: true
-brew "rabbitmq", restart_service: true
-brew "redis", restart_service: true
-
-brew "youtube-dl"
+brew "openssl"
 brew "node"
+brew "ffmpeg"
+brew "yt-dlp"
 
+# Fonts
 cask "font-ia-writer-mono"
 cask "font-ia-writer-duo"
 cask "font-ia-writer-quattro"
 
 cask "font-open-sans"
-cask "font-poppins"
 cask "font-roboto"
 cask "font-fira-sans"
 cask "font-karla"
