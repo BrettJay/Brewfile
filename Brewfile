@@ -66,6 +66,7 @@ cask "scroll-reverser"
 
 # Developer tools
 brew "neovim"
+brew "tmux"
 cask "iterm2"
 cask "sublime-text"
 cask "sublime-merge"
